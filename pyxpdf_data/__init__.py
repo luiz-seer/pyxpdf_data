@@ -43,7 +43,7 @@ def get_xpdfrc(force_rewrite=True):
         generate xpdfrc again even if it exists already. Helpful if somehow xpdfrc file
         got corrupted.
     """
-#     xpdfrc_path = Path(get_python_lib(), "default.xpdf")
+    xpdfrc_path = Path(get_python_lib(), "default.xpdf")
 #     if (not xpdfrc_path.exists()) or force_rewrite:
 #         xpdfrc = generate_xpdfrc()
 #         with open(str(xpdfrc_path), "w") as fp:
